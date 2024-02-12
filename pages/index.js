@@ -66,13 +66,13 @@ const Home = ({
                 </Link>
               )}
               {/* <br /> */}
-              <a
+              <Link
                 className="btn btn-primary mb-6 md:ml-5"
                 target="_blank"
                 href="https://drive.google.com/file/d/16aq6VgNWwSKscakRptxwLE0qEhWr9LSn/view"
               >
                 Download Resume
-              </a>
+              </Link>
             </div>
             {banner.image_enable && (
               <div className="col-9 lg:col-6">
@@ -97,13 +97,13 @@ const Home = ({
             Website Projects
           </h1>
 
-          <p className="mt-4 text-center text-gray-500 dark:text-gray-300">
-            "In my portfolio, I proudly feature select projects completed during
-            my tenure at company I've work. <br />
+          <div className="mt-4 text-center text-gray-500 dark:text-gray-300">
+            In my portfolio, I proudly feature select projects completed during
+            my tenure at company Ive work. <br />
             These projects exemplify my contributions to real-world applications
             and demonstrate my ability to deliver high-quality solutions in a
             professional setting
-          </p>
+          </div>
 
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:mt-12 xl:grid-cols-3 xl:gap-12">
             <a href=" https://www.pragmanila.com/" target="_blank">
@@ -120,7 +120,7 @@ const Home = ({
               </div>
             </a>
 
-            <a href="http://orcaconsult.ph/" target="_blank">
+            <Link href="http://orcaconsult.ph/" target="_blank">
               <div className="group h-96 cursor-pointer overflow-hidden rounded-lg bg-[url('/images/website/OrcaWebsite.png')] bg-cover ">
                 <div className="flex h-full w-full flex-col justify-center bg-gray-800/60 px-8 py-4 opacity-0 backdrop-blur-sm transition-opacity duration-700 group-hover:opacity-100">
                   <h2 className="mt-4 text-xl font-semibold capitalize text-white">
@@ -132,7 +132,7 @@ const Home = ({
                   </p>
                 </div>
               </div>
-            </a>
+            </Link>
 
             <a href=" https://korg.ph/" target="_blank">
               <div className="group h-96 cursor-pointer overflow-hidden rounded-lg bg-[url('/images/website/KorgWebsite.png')] bg-cover">

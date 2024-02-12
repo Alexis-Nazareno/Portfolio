@@ -4,10 +4,11 @@
   "version": "1.0.5",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "node lib/jsonGenerator.js && next dev",
+    "build": "node lib/jsonGenerator.js && next build",
+    "export": "npm run build && next export",
+    "lint": "next lint",
+    "start": "next start"
   },
   "dependencies": {
     "disqus-react": "^1.1.5",

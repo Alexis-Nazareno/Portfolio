@@ -76,6 +76,13 @@ const Home = ({
             {banner.image_enable && (
               <div className="col-9 lg:col-6">
                 <ImageFallback
+                  className=" object-top-left -z-[2] object-cover"
+                  src={"/images/star.svg"}
+                  fill="true"
+                  alt="bg"
+                  priority={true}
+                />
+                <ImageFallback
                   className="mx-auto object-contain"
                   src={banner.image}
                   width={548}

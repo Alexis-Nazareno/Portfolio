@@ -20,7 +20,8 @@ const Contact = ({ data }) => {
             priority={true}
           />
           <div className="lg:col-6">
-            <p className=" my-1 mb-10 mr-0 text-left text-center text-[16px]  lg:my-11 lg:pt-12 lg:text-left lg:text-[28px]">
+            <img className="w-[35em] lg:h-[24em]" src={"/images/dev.svg"} />
+            <p className=" my-1 mb-10 mr-0 text-left text-center text-[16px]  lg:my-11 lg:pt-8 lg:text-left lg:text-[24px]">
               Thank you for taking the time to review my portfolio!
               <br /> <br /> If you have any inquiries, collaboration
               opportunities, or just want to say hello, feel free to reach out
@@ -154,7 +155,7 @@ const Contact = ({ data }) => {
              border border-border p-4  text-primary dark:border-darkmode-border"
               >
                 <FaEnvelope />
-                <p className="ml-1.5 text-[11px] text-lg  font-bold text-dark dark:text-darkmode-light lg:text-[12px]">
+                <p className="ml-1.5 text-[0.8em] font-bold text-dark dark:text-darkmode-light md:text-[0.9em] xl:text-[1.1em]">
                   {mail}
                 </p>
               </Link>

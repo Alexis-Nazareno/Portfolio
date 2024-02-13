@@ -106,7 +106,7 @@ const Home = ({
 
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:mt-12 xl:grid-cols-3 xl:gap-12">
             <a href=" https://www.pragmanila.com/" target="_blank">
-              <div className="group h-96 cursor-pointer overflow-hidden rounded-lg bg-[url('/images/website/Pragmanila_Website.png')] bg-cover">
+              <div className="group h-[20.5em] cursor-pointer overflow-hidden rounded-lg bg-[url('/images/website/Pragmanila_Website.png')] bg-cover lg:h-96">
                 <div className="flex h-full w-full flex-col justify-center bg-gray-800/60 px-8 py-4 opacity-0 backdrop-blur-sm transition-opacity duration-700 group-hover:opacity-100">
                   <h2 className="mt-4 text-xl font-semibold capitalize text-white">
                     Pragmanila Website
@@ -120,7 +120,7 @@ const Home = ({
             </a>
 
             <Link href="http://orcaconsult.ph/" target="_blank">
-              <div className="group h-96 cursor-pointer overflow-hidden rounded-lg bg-[url('/images/website/OrcaWebsite.png')] bg-cover ">
+              <div className="group h-[20.5em] cursor-pointer overflow-hidden rounded-lg bg-[url('/images/website/OrcaWebsite.png')] bg-cover lg:h-96 ">
                 <div className="flex h-full w-full flex-col justify-center bg-gray-800/60 px-8 py-4 opacity-0 backdrop-blur-sm transition-opacity duration-700 group-hover:opacity-100">
                   <h2 className="mt-4 text-xl font-semibold capitalize text-white">
                     Orca Website
@@ -134,7 +134,7 @@ const Home = ({
             </Link>
 
             <a href=" https://korg.ph/" target="_blank">
-              <div className="group h-96 cursor-pointer overflow-hidden rounded-lg bg-[url('/images/website/KorgWebsite.png')] bg-cover">
+              <div className="group h-[20.5em] cursor-pointer overflow-hidden rounded-lg bg-[url('/images/website/KorgWebsite.png')] bg-cover lg:h-96">
                 <div className="flex h-full w-full flex-col justify-center bg-gray-800/60 px-8 py-4 opacity-0 backdrop-blur-sm transition-opacity duration-700 group-hover:opacity-100">
                   <h2 className="mt-4 text-xl font-semibold capitalize text-white">
                     Korg Website

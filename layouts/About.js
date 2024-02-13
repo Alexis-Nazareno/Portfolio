@@ -73,11 +73,13 @@ const About = ({ data }) => {
               </div>
             </div>
           </div>
-          <div className="lg:mt-[-450px] ">
+          <div className="lg:mt-[-600px] xl:mt-[-530px] ">
             <div className="rounded border border-border p-6 dark:border-darkmode-border ">
               <h2 className="section-title mb-12"> Skills</h2>
+
+              <img className="w-[35em] lg:h-[24em]" src={"/images/share.svg"} />
               <div className="row">
-                <ul className="grid grid-cols-2 gap-4  ">
+                <ul className="grid gap-4 sm:grid-cols-1  md:grid-cols-2 ">
                   <li className="text-md ml-7 list-disc font-bold">
                     Algorithms
                   </li>
